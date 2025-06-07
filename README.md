@@ -59,9 +59,9 @@ Inside the *config.json* file, under the **PROJECT_SETTINGS** object, there are 
 
 Both options depend on how you wish to test the bot. By default both values are set to true. If you set isLocal to false, and then run the bot this will allow the bot to monitor swap events on the actual mainnet, instead of locally. 
 
-isDeployed's value can be set on whether you wish for the abritrage contract to be called if a potential trade is found. By default isDeployed is
+isDeployed's value can be set on whether you wish for the arbitrage contract to be called if a potential trade is found. By default isDeployed is
 set to true for local testing. Ideally this is helpful if you want to monitor swaps on mainnet and you don't have a contract deployed. 
-This will allow you to still experiment with finding potential abitrage opportunites. 
+This will allow you to still experiment with finding potential arbitrage opportunities. 
 
 Some other variables under **PROJECT_SETTINGS** are:
 - **ARBITRAGE_ADDRESS** (Address of the Arbitrage contract)
