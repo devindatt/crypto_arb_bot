@@ -19,7 +19,7 @@
 ### 1. Clone/Download the Repository
 
 ### 2. Install Dependencies:
-`npm install`
+Run `./setup.sh` to install required packages.
 
 ### 3. Create and Setup .env
 Before running any scripts, you'll want to create a .env file with the following values (see .env.example):
@@ -50,6 +50,8 @@ Sometimes the deployed address may be different when testing, and therefore you'
 ### 8. Manipulate Price
 In another terminal run:
 `npx hardhat run scripts/manipulate.js --network localhost`
+### Running Tests
+Use `npm test` to execute the Hardhat tests.
 
 ## About config.json
 ### PROJECT_SETTINGS
